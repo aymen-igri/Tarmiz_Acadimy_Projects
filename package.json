@@ -1,0 +1,23 @@
+{
+  "name": "tarmiz-projects",
+  "version": "1.0.0",
+  "description": "a file when i'm tring to learn the advanced things in js (not really advanced)",
+  "homepage": "https://github.com/aymen-igri/Tarmiz_Acadimy_Projects#readme",
+  "bugs": {
+    "url": "https://github.com/aymen-igri/Tarmiz_Acadimy_Projects/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aymen-igri/Tarmiz_Acadimy_Projects.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "axios": "^1.10.0"
+  }
+}

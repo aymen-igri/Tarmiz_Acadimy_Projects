@@ -1,0 +1,40 @@
+body{
+    background-color: bisque;
+}
+
+h1,.result{
+    margin-top: 4%;
+    text-align: center;
+}
+
+.prayer-form{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 25%;
+    margin-left: 25%;
+    direction: rtl;
+}
+
+.prayer-form select,input,button{
+    width: 120px;
+    height: 40px;
+}
+
+.input{
+    width: 120px;
+    height: 40px;
+}
+.prayer-times{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4% 5%;
+    direction: rtl;
+}
+
+.prayer-times div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

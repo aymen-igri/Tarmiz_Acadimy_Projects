@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div>
+        <h1>بسم الله الرحمان الرحيم</h1>
+        
+        <form class="prayer-form" id="prayer-form">
+            <h3>اختر موقعك:</h3>
+                <select id="country" name="country">
+                    <option value="Morocco">المغرب</option>
+                    <option value="Algeria">الجزائر</option>
+                    <option value="Tunisia">تونس</option>
+                    <option value="Egypt">مصر</option>
+                    <option value="Saudi_Arabia">السعودية</option>
+                    <option value="Uae">الإمارات</option>
+                    <option value="Qatar">قطر</option>
+                    <option value="Kuwait">الكويت</option>
+                    <option value="Jordan">الأردن</option>
+                    <option value="Iraq">العراق</option>
+                    <option value="Palestine">فلسطين</option>
+                    <option value="Syria">سوريا</option>
+                    <option value="Lebanon">لبنان</option>
+                    <option value="Yemen">اليمن</option>
+                    <option value="Sudan">السودان</option>
+                    <option value="Libya">ليبيا</option>
+                    <option value="Turkey">تركيا</option>
+                    <option value="Iran">إيران</option>
+                </select>   
+                <select id="city" name="city">
+                    <option value="Casablanca">الدار البيضاء</option>
+                    <option value="Algiers">الجزائر</option>
+                    <option value="Tunis">تونس</option>
+                    <option value="Rabat">الرباط</option>
+                    <option value="Cairo">القاهرة</option>
+                    <option value="Alexandria">الإسكندرية</option>
+                    <option value="Riyadh">الرياض</option>
+                    <option value="Jeddah">جدة</option>
+                    <option value="Dubai">دبي</option>
+                    <option value="Abu_Dhabi">أبوظبي</option>
+                    <option value="Doha">الدوحة</option>
+                    <option value="Kuwait">الكويت</option>
+                    <option value="Amman">عمان</option>
+                    <option value="Baghdad">بغداد</option>
+                    <option value="Jerusalem">القدس</option>
+                    <option value="Damascus">دمشق</option>
+                    <option value="Beirut">بيروت</option>
+                    <option value="Sanaa">صنعاء</option>
+                    <option value="Khartoum">الخرطوم</option>
+                    <option value="Tripoli">طرابلس</option>
+                    <option value="Istanbul">إسطنبول</option>
+                    <option value="Tehran">طهران</option>
+                </select>
+            <input type="date" id="date" name="date" />
+            <button type="submit" id="submit">إظهار أوقات الصلاة</button>
+        </form>
+        <h3 class="result">مواقيت الصلاة بالنسبلة ليوم في مدينة</h3>
+        <div class="prayer-times" id="prayer-times">
+            <div id="Fajr">
+                <h4>الفجر:</h4>
+            </div>
+            <div id="Sunrise">
+                <h4 >الشروق:</h4>
+            </div>
+            <div id="Dhuhr">
+                <h4>الظهر:</h4>
+            </div>
+            <div id="Asr">
+            <h4 >العصر:</h4>
+            </div>
+            <div id="Maghrib">
+            <h4 >المغرب:</h4>
+            </div>
+            <div id="Isha">
+            <h4 >العشاء:</h4>
+            </div>
+        </div>
+</body>
+<script src="../node_modules/axios/dist/axios.js"></script>
+<script src="script.js"></script>
+
+</html>
