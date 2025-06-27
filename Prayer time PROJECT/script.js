@@ -14,6 +14,7 @@ axios.get('https://api.aladhan.com/v1//timingsByCity/26-06-2025?city=Casablanca&
 .then(responce => {
     if (responce.status == 200){
         const prayer_timings = responce.data.data.timings;
+        
         for (let pray in prayer_timings){
             const el = document.getElementById(pray);
             if (el) {
